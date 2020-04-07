@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AddPortfolioActivity">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/et_name"
+        android:hint="Име"
+        android:layout_margin="20dp"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/et_email"
+        android:hint="Имейл"
+        android:layout_margin="20dp"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/et_phone"
+        android:hint="Телефонен номер"
+        android:layout_margin="20dp"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/et_school"
+        android:hint="Образование"
+        android:layout_margin="20dp"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/et_work"
+        android:hint="Текуща работа"
+        android:layout_margin="20dp"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_technologies"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Технологии и езици за програмиране" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="*Отделяйте отделните части със запетая!" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_gravity="center"
+        android:layout_width="260dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:text="ГОТОВО!"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
